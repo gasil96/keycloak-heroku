@@ -9,7 +9,7 @@
         "heroku"
     ],
     "stack": "container",
-    "repository": "https://github.com/mieckert/keycloak-heroku",
+    "repository": "https://github.com/gasil96/keycloak-heroku",
     "logo": "https://www.keycloak.org/resources/images/keycloak_logo_480x108.png",
     "success_url": "/",
     "env": {
@@ -29,12 +29,12 @@
     "formation": {
         "web": {
             "quantity": 1,
-            "size": "Performance-M"
+            "size": "Eco"
         }
     },
     "addons": [
         {
-            "plan": "heroku-postgresql:hobby-dev"
+            "plan": "heroku-postgresql:mini"
         }
     ]
 }
